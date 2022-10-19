@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1 class="title">Password Generator</h1>
+            <input class="password" type="text" placeholder="Generate password">
+            <button id="copy" class="btn">Copy</button>
+            <button id="generate8" class="btn">Generate 8-digit</button>
+            <button id="generate12" class="btn">Generate 12-digit</button>
+            <div class="checkboxes">
+                <div class="checkbox">
+                    <span class="checkbox-text" >Numbers: </span>
+                    <input id="numbers" class="checkbox-item" name="numbers" type="checkbox" checked>
+                </div>
+                <div class="checkbox">
+                    <span class="checkbox-text" >Letters: </span>
+                    <input id="letters" class="checkbox-item" name="letters" type="checkbox" checked>
+                </div>
+                <div class="checkbox">
+                    <span class="checkbox-text" >Symbols: </span>
+                    <input id="symbols" class="checkbox-item" name="symbols" type="checkbox" checked>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
